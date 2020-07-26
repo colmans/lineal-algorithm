@@ -20,13 +20,13 @@ public class MyApp {
 
         //solicito al usuario que ingrese los datos
         System.out.println("ingrese la primera nota");
-        nota1=keyboard.nextInt();
+        nota1=keyboard.nextDouble();
         System.out.println("ingrese la segunda nota");
-        nota2=keyboard.nextInt();
+        nota2=keyboard.nextDouble();
         System.out.println("ingrese la tercera nota");
-        nota3=keyboard.nextInt();
+        nota3=keyboard.nextDouble();
         System.out.println("ingrese la cuarta nota");
-        nota4=keyboard.nextInt();
+        nota4=keyboard.nextDouble();
 
         //realizo el proceso
         suma= nota1 + nota2 + nota3 + nota4;
