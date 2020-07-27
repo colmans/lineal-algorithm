@@ -7,6 +7,7 @@ public class MyApp {
         //declarar las variables y darle nombre al programa
 
         System.out.println("Programa para determinar el monto de un cheque");
+        System.out.println("**********************************************");
 
         int numdias;
         int montohotel;
@@ -24,7 +25,7 @@ public class MyApp {
         System.out.println("Ingrese numero de dias");
         numdias = keyboard.nextInt();
         System.out.println("Ingrese monto de hotel");
-        montohotel = keyboard.nextInt();
+        montohotel = keyboard.nextInt()
         System.out.println("INgrese monto de comida");
         montocomi = keyboard.nextInt();
 
